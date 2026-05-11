@@ -1,0 +1,6 @@
+{
+  "name": "NUEVO Palabra",
+  "description": "Edición Minimalista para Niños - Generador de palabras aleatorias con temporizador dinámico.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": []
+}
