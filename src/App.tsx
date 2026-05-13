@@ -347,7 +347,7 @@ export default function App() {
         )}
 
         {/* Progress Bar Container */}
-        <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto pb-1 md:pb-8 lg:pb-10 px-4 md:px-0">
+        <div className="w-full max-w-xl md:max-w-2xl lg:max-w-4xl mx-auto pb-[14px] md:pb-8 lg:pb-10 px-4 md:px-0">
           <div className="h-4 md:h-6 lg:h-8 w-full bg-black/5 border border-text md:border-2 relative overflow-hidden shadow-[inset_0_2px_4px_rgba(0,0,0,0.05)] rounded-sm">
             <div
               className="h-full absolute left-0 top-0 transition-[width] duration-75 linear"
@@ -368,7 +368,7 @@ export default function App() {
       </main>
 
       {/* Footer / Controls */}
-      <footer className="pt-1 pb-2 md:pt-6 md:pb-6 lg:pt-10 lg:pb-10 px-4 md:px-6 lg:px-10 border-t border-text/10 bg-bg relative z-10">
+      <footer className="pt-1 pb-[18px] md:pt-6 md:pb-6 lg:pt-10 lg:pb-10 px-4 md:px-6 lg:px-10 border-t border-text/10 bg-bg relative z-10">
         <div className="max-w-5xl mx-auto grid grid-cols-12 gap-4 md:gap-8 lg:gap-12 items-end">
           
           {/* Slider Control */}
