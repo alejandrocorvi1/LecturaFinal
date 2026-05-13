@@ -240,6 +240,20 @@ export default function App() {
   const handleToggle = () => {
     const nextPlaying = !isPlaying;
     if (!isPlaying) {
+      // Intentar forzar pantalla completa al comenzar
+      try {
+        const docElm = document.documentElement as any;
+        if (docElm.requestFullscreen) {
+          docElm.requestFullscreen();
+        } else if (docElm.webkitRequestFullscreen) {
+          docElm.webkitRequestFullscreen();
+        } else if (docElm.msRequestFullscreen) {
+          docElm.msRequestFullscreen();
+        }
+      } catch (err) {
+        console.warn("Fullscreen request failed:", err);
+      }
+
       setCurrentWord(getNextWord());
       setScore(0);
       setPps(0);

@@ -67,6 +67,14 @@ Esta versión introduce el marcador de Palabras Por Segundo (PPS) y un layout si
 - **PPS**: Se calcula en tiempo real tras cada acierto (`Palabras / Segundos transcurridos`).
 - **Reseteo**: El contador de tiempo y el valor PPS se reinician al presionar "Comenzar".
 
+## Versión 5 (Pack de Control & Espaciado) - mayo 13, 2026
+Esta versión agrupa los controles y ajusta su posición vertical.
+
+### Elementos de UI y Estilo
+- **Pack de Control**: Definido por el slider, el micrófono, el botón "Comenzar" y la barra de progreso.
+- **Ajuste de Altura**: El Pack de Control y la firma se han desplazado 10px hacia arriba para optimizar el espacio inferior.
+- **Consistencia Visual**: Las cajas de "CORRECTAS" y "PPS" mantienen la configuración de `text-lg`, `py-2` y `border-2`.
+
 ## La MEJOR Versión (Version Definitiva) - May 2, 2026
 This version is considered the definitive "Best Version" of the app. If the user asks for "la MEJOR versión" or just "version2", revert all layout and font scaling to these parameters:
 
