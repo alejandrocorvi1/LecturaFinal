@@ -368,7 +368,7 @@ export default function App() {
       </main>
 
       {/* Footer / Controls */}
-      <footer className="pt-1 pb-[38px] md:pb-[44px] lg:pb-[60px] px-4 md:px-6 lg:px-10 border-t border-text/10 bg-bg relative z-10">
+      <footer className="pt-1 pb-[58px] md:pb-[64px] lg:pb-[80px] px-4 md:px-6 lg:px-10 border-t border-text/10 bg-bg relative z-10">
         <div className="max-w-5xl mx-auto grid grid-cols-12 gap-4 md:gap-8 lg:gap-12 items-end">
           
           {/* Slider Control */}
@@ -442,7 +442,7 @@ export default function App() {
         
         {/* Signature at the bottom centered */}
         <div className="mt-4 md:mt-8 pb-2 flex justify-center w-full">
-          <span className="text-[10px] md:text-sm italic font-medium opacity-60 tracking-tight">by Ale Corvi</span>
+          <span className="text-[10px] md:text-sm italic font-bold opacity-60 tracking-tight">by Ale Corvi</span>
         </div>
       </footer>
     </div>
